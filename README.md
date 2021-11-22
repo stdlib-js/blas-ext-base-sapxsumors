@@ -20,7 +20,7 @@ limitations under the License.
 
 # sapxsumors
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Add a constant to each single-precision floating-point strided array element and compute the sum using ordinary recursive summation.
 
@@ -187,10 +187,10 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/blas/ext/base/dapxsumors`][@stdlib/blas/ext/base/dapxsumors]: adds a constant to each double-precision floating-point strided array element and computes the sum using ordinary recursive summation.
--   [`@stdlib/blas/ext/base/gapxsumors`][@stdlib/blas/ext/base/gapxsumors]: adds a constant to each strided array element and computes the sum using ordinary recursive summation.
--   [`@stdlib/blas/ext/base/sapxsum`][@stdlib/blas/ext/base/sapxsum]: adds a constant to each single-precision floating-point strided array element and computes the sum.
--   [`@stdlib/blas/ext/base/ssumors`][@stdlib/blas/ext/base/ssumors]: calculate the sum of single-precision floating-point strided array elements using ordinary recursive summation.
+-   <span class="package-name">[`@stdlib/blas/ext/base/dapxsumors`][@stdlib/blas/ext/base/dapxsumors]</span><span class="delimiter">: </span><span class="description">adds a constant to each double-precision floating-point strided array element and computes the sum using ordinary recursive summation.</span>
+-   <span class="package-name">[`@stdlib/blas/ext/base/gapxsumors`][@stdlib/blas/ext/base/gapxsumors]</span><span class="delimiter">: </span><span class="description">adds a constant to each strided array element and computes the sum using ordinary recursive summation.</span>
+-   <span class="package-name">[`@stdlib/blas/ext/base/sapxsum`][@stdlib/blas/ext/base/sapxsum]</span><span class="delimiter">: </span><span class="description">adds a constant to each single-precision floating-point strided array element and computes the sum.</span>
+-   <span class="package-name">[`@stdlib/blas/ext/base/ssumors`][@stdlib/blas/ext/base/ssumors]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements using ordinary recursive summation.</span>
 
 </section>
 
@@ -241,8 +241,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-ext-base-sapxsumors/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/blas-ext-base-sapxsumors?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/blas-ext-base-sapxsumors.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/blas-ext-base-sapxsumors/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
