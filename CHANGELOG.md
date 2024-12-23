@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-23)
 
 <section class="bug-fixes">
 
@@ -22,11 +22,12 @@
 
 <details>
 
+-   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`e454c91`](https://github.com/stdlib-js/stdlib/commit/e454c91ae2af928b61effcddadb31548758f8675) - **chore:** improve code style and conditionals _(by Philipp Burckhardt)_
 -   [`898b50d`](https://github.com/stdlib-js/stdlib/commit/898b50d8d705bdf6a55db8cf1858ea1e1d257c35) - **fix:** fix includes and types _(by Philipp Burckhardt)_
 -   [`7e366ae`](https://github.com/stdlib-js/stdlib/commit/7e366ae8bd41439be0e99e958d1c3fbb1b7dd0c2) - **chore:** update package.json descriptions _(by Philipp Burckhardt)_
 -   [`ed44fee`](https://github.com/stdlib-js/stdlib/commit/ed44feecb9eaa5e0849d1a533e5415624d0aa338) - **style:** use imperative in package.json description and end with period _(by Philipp Burckhardt)_
--   [`c6bf7de`](https://github.com/stdlib-js/stdlib/commit/c6bf7de53b6ab8c44263cee7fdf1cdfe2815864d) - **refactor:** update implementation for `blas/ext/base/sapxsumors` _(by yaswanth, Philipp Burckhardt)_
+-   [`c6bf7de`](https://github.com/stdlib-js/stdlib/commit/c6bf7de53b6ab8c44263cee7fdf1cdfe2815864d) - **refactor:** update implementation for `blas/ext/base/sapxsumors` _(by Yaswanth Kosuru, Philipp Burckhardt)_
 -   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 
@@ -44,7 +45,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 -   Athan Reines
 -   Philipp Burckhardt
--   yaswanth
+-   Yaswanth Kosuru
 
 </section>
 
