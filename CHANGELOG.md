@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`f9fce59`](https://github.com/stdlib-js/stdlib/commit/f9fce5904d09fc2f61c1d7c21d26e59f7de17420) - **docs:** update related packages sections [(#4212)](https://github.com/stdlib-js/stdlib/pull/4212) _(by stdlib-bot)_
 -   [`cc8daaf`](https://github.com/stdlib-js/stdlib/commit/cc8daaf165f6426ba2b1d7edd68ff3e8f3d74478) - **fix:** update include path _(by Athan Reines)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`e454c91`](https://github.com/stdlib-js/stdlib/commit/e454c91ae2af928b61effcddadb31548758f8675) - **chore:** improve code style and conditionals _(by Philipp Burckhardt)_
