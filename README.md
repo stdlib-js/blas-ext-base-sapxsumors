@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sapxsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-sapxsumors/tags). For example,
+
+```javascript
 import sapxsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@v0.3.0-esm/index.mjs';
 ```
 
@@ -153,7 +158,7 @@ var v = sapxsumors.ndarray( 4, 5.0, x, 2, 1 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
-import sapxsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@v0.3.0-esm/index.mjs';
+import sapxsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float32'
