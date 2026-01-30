@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sapxsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@deno/mod.js';
+import sapxsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@v0.3.0-deno/mod.js';
 ```
 
 #### sapxsumors( N, alpha, x, strideX )
@@ -148,7 +148,7 @@ var v = sapxsumors.ndarray( 4, 5.0, x, 2, 1 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
-import sapxsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@deno/mod.js';
+import sapxsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@v0.3.0-deno/mod.js';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float32'
