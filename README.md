@@ -50,6 +50,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+sapxsumors = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-sapxsumors/tags). For example,
+
+```javascript
 sapxsumors = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@v0.3.1-umd/browser.js' )
 ```
 
@@ -62,7 +67,7 @@ var sapxsumors = require( 'path/to/vendor/umd/blas-ext-base-sapxsumors/index.js'
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@v0.3.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -175,7 +180,7 @@ var v = sapxsumors.ndarray( 4, 5.0, x, 2, 1 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@v0.3.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sapxsumors@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
